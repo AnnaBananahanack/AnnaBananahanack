@@ -2,7 +2,7 @@ function getLangES() {
     return {
         buttonMain: "Principal",
         buttonMedia: "Media",
-        buttonInfo: "Información",
+        buttonInfo: "Info",
         buttonContact: "Contacto",
         buttonBack: "Volver",
         notFoundTitle: "Página no encontrada",
