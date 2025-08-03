@@ -7,3 +7,10 @@
   visibility: visible;
 }
 
+@media (max-width: 576px) {
+  .franja-texto {
+    height: 40% !important;
+    font-size: 0.75rem;
+  }
+}
+
