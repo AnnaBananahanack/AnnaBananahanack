@@ -1,4 +1,9 @@
 [data-translate] {
   white-space: pre-line;
+  visibility: hidden;
+}
+
+.lang-ready [data-translate] {
+  visibility: visible;
 }
 
