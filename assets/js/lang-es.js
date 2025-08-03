@@ -4,6 +4,7 @@ function getLangES() {
         buttonMedia: "Media",
         buttonInfo: "Información",
         buttonContact: "Contacto",
+        buttonBack: "Volver",
         notFoundTitle: "Página no encontrada",
         notFoundInfo: "No hemos podido encontrar la página que estás buscando.",
         notFoundButton: "Volver al sitio",

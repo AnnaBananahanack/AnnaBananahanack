@@ -18,4 +18,20 @@ function loadLang(langCode) {
   }
 
   setLanguage(lang);
+  updateLangButtons(langCode);
+}
+
+function updateLangButtons(activeLang) {
+  document.querySelectorAll("[data-lang]").forEach(button => {
+    const langCode = button.getAttribute("data-lang");
+    if (langCode === activeLang) {
+      button.classList.add("btn-primary");
+      button.classList.remove("btn-success");
+      button.disabled = true;
+    } else {
+      button.classList.add("btn-success");
+      button.classList.remove("btn-primary");
+      button.disabled = false;
+    }
+  });
 }

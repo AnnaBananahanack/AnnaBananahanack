@@ -4,6 +4,7 @@ function getLangEN() {
         buttonMedia:"Media",
         buttonInfo:"Info",
         buttonContact:"Contact",
+        buttonBack: "Back",
         notFoundTitle: "Page Not Found",
         notFoundInfo: "We couldn't find the page you are looking for.",
         notFoundButton: "Back to site",

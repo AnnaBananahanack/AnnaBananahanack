@@ -8,6 +8,9 @@
     } else if (savedLang === "es") {
       lang = getLangES();
     }
+
     setLanguage(lang);
+    updateLangButtons(savedLang);
+    document.body.classList.add("lang-ready");
   });
 })();
