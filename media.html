@@ -98,12 +98,17 @@
     <link rel="stylesheet" href="assets/css/Inter.css">
     <link rel="stylesheet" href="assets/css/Outfit.css">
     <link rel="stylesheet" href="assets/css/bss-overrides.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="assets/css/Lightbox-Gallery-baguetteBox.min.css">
 </head>
 
 <body class="bg-gradient-body">
     <nav class="navbar navbar-expand-lg py-3" data-bs-theme="dark">
-        <div class="container">
+        <div class="container"><script src="lang-en.js"></script>
+<script src="lang-es.js"></script>
+<script src="translate.js"></script>
+<script src="main.js"></script>
+
             <div class="container">
                 <div class="row">
                     <div class="col-md-12"><img class="img-fluid" src="assets/img/logos/ABCK_Logo.png" width="1092" height="294"></div>
@@ -112,10 +117,10 @@
                     <div class="col-md-12"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                         <div class="collapse navbar-collapse" id="navcol-3">
                             <ul class="navbar-nav mb-4 mb-lg-0 mx-auto">
-                                <li class="nav-item"><a class="nav-link" href="index.html">Principal</a></li>
-                                <li class="nav-item"><a class="nav-link active" href="media.html">Media</a></li>
-                                <li class="nav-item"><a class="nav-link" href="info.html">Información</a></li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+                                <li class="nav-item"><a class="nav-link" href="index.html" data-translate="buttonMain">Principal</a></li>
+                                <li class="nav-item"><a class="nav-link active" href="media.html" data-translate="buttonMedia">Media</a></li>
+                                <li class="nav-item"><a class="nav-link" href="info.html" data-translate="buttonInfo">Información</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html" data-translate="buttonContact">Contacto</a></li>
                             </ul>
                         </div>
                     </div>
@@ -178,14 +183,18 @@
                     <div class="col text-center"><a href="https://drive.google.com/drive/u/3/folders/1jUBkxnBlZuBh_kPlGoqZCtDL0ezbYoz2" target="_blank">Press Kit</a></div>
                     <div class="col text-center"><a href="https://drive.google.com/file/d/1HKq1e06BPIFv6wmwGCBuUm2MPHPVNze7/view?usp=sharing" target="_blank">Riders</a></div>
                 </div>
-                <p class="text-muted mb-2">Copyright © Anna Bananahanack</p>
+                <p class="text-muted mb-2">Copyright © Anna Bananahanack 2025</p>
             </div>
-            <div class="text-center text-lg-end"></div>
+            <div class="text-center text-lg-end"><button class="btn btn-primary" type="button" onclick="loadLang(&#39;en&#39;)">EN</button><button class="btn btn-primary" type="button" onclick="loadLang(&#39;es&#39;)">ES</button></div>
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/lang-en.js"></script>
+    <script src="assets/js/lang-es.js"></script>
     <script src="assets/js/Lightbox-Gallery-baguetteBox.min.js"></script>
     <script src="assets/js/Lightbox-Gallery.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/translate.js"></script>
 </body>
 
 </html>
